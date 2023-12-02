@@ -1,0 +1,6 @@
+POST http://localhost/encode
+Content-Type: application/json
+
+{
+    "pwd" : "IrfanGanteng2023"
+}
