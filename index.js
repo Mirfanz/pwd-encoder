@@ -41,3 +41,5 @@ app.post("/encode", (req, res) => {
 app.listen(80, () => {
   console.log("App listening on port 3000");
 });
+
+module.exports = app;
