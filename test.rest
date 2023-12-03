@@ -1,6 +1,7 @@
+# POST https://pwd-encoder.vercel.app/encode
 POST http://localhost/encode
 Content-Type: application/json
 
 {
-    "pwd" : "IrfanGanteng2023"
+    "pwd" : "EmailJasman1962"
 }

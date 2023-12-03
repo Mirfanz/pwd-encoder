@@ -18,7 +18,7 @@ function encodePassword(pwd) {
 
     const selectedAbjad = abjad.indexOf(val) < 0 ? ABJAD : abjad;
     const indexVal = abjad.indexOf(val.toLowerCase());
-    const newIndexVal = formula(indexVal) % abjad.length;
+    const newIndexVal = (formula(indexVal + 1) - 1) % abjad.length;
 
     return selectedAbjad[newIndexVal];
   });
